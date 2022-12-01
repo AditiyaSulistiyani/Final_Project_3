@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <TextView
+        android:id="@+id/inputOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:padding="20dp"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnDell"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:text="DELL"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/teal_700"
+            android:layout_margin="1dp" />
+
+        <Button
+            android:id="@+id/btnAnswer"
+            android:layout_width="225dp"
+            android:layout_height="100dp"
+            android:text="ANSWER"
+            android:onClick="jawaban"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/teal_700"
+            android:layout_marginTop="3dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
